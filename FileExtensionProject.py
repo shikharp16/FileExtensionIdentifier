@@ -18,6 +18,8 @@ URL: https://www.file-extensions.org/'raw_input(file_extension)'/-file-extension
 print("Description from Source 1")
 print("Description from Source 1")
 print("")
+
+print("Description from Source 1")
 try:
 	#sending HTTP requests after generating url as per the above mentioned scheme
 	r1 = req.get("https://www.file-extensions.org/"+t+"-file-extension")
